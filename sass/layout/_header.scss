@@ -82,10 +82,11 @@
     display: flex;
     margin-left: auto;
     align-items: center;
-}
-.auth-nav .item + .item {
+    &+& {
     margin-left: 50px;
     display: flex;
+    }
+    
 }
 .auth-nav .mail,
 .auth-nav .phone {

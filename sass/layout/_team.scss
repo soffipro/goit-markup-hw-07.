@@ -11,9 +11,9 @@
     rgba(0, 0, 0, 0.12),
     0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
-}
-.team-card:last-child {
+    &:last-child {
     margin-right: 0px;
+    }
 }
 .team-list {
     display: flex;
@@ -66,12 +66,11 @@
     &:focus {
         background-color: var(--accent-color);
     }
+    &svg {
+    fill: var(--white-color);
+    }
 }
 .master-social-icon {
     fill: #AFB1B8;
     
-}
-.master-social-link:hover svg,
-.master-social-link:focus svg {
-    fill: var(--white-color);
 }
