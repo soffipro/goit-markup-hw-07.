@@ -20,12 +20,12 @@
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
             }
 }
-.buttons-filter {
+.btn__list {
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
 }
-.btn-item {
+.btn__item {
     margin-right: 8px;
     &:last-child {
     margin-right: 0px;

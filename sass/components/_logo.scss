@@ -11,8 +11,13 @@
         .accent {
         color: var(--accent-color);
     }
-}
-.logo:hover,
-.logo:focus {
+    &:hover,
+    &:focus {
     color: var(--accent-color);
+    }
 }
+
+// .logo:hover,
+// .logo:focus {
+//     color: var(--accent-color);
+// }

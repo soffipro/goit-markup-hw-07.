@@ -1,13 +1,16 @@
-.clients .list {
+.clients__list {
     display: flex;
 }
-.clients-item {
-    margin-right: 30px;
-        &:last-child {
+.clients__item {
+    margin-right: 30px; 
+    &:last-child {
         margin-right: 0;
-    } 
+} 
 }
-.clients-link {
+// .clients__item:last-child {
+//         margin-right: 0;
+// }
+.clients__link {
     display: flex;
     justify-content: center;
     align-items: center;
