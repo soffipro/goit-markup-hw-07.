@@ -42,9 +42,9 @@
     margin-left: 50px;
 }
 .site-nav__link,
-.auth-nav .mail,
-.auth-nav .phone,
-.site-nav .link-current {
+.auth-nav__mail,
+.auth-nav__phone,
+.site-nav__link-current {
     color: var(--title-text-color);
     font-weight: 500;
     font-size: 14px;
@@ -73,7 +73,7 @@
     display: block;
     width: 100%;
     height: 4px;
-    bottom: -26px;
+    bottom: -32px;
     border-radius: 2px; 
 }
 /* ------------AUTH-NAV----------------- */
@@ -89,26 +89,27 @@
 }
 .auth-nav__mail,
 .auth-nav__phone {
+    letter-spacing: 0.02em;
     color: var(--primary-text-color);
     text-decoration: none;
     display: flex;
+    align-items: center;
     fill: currentColor;
-    padding: 20px 0 20px 0;
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &:focus,
+    &:hover,
+    &:focus,
+    &:hover {
+    color: var(--accent-color);
+    }
 }
 
 .auth-nav__item {
     margin-right: 30px;
     &:last-child {
     margin-right: 0;
-    }
-    &:focus,
-    &:hover,
-    &:focus,
-    &:hover {
-    color: var(--accent-color);
     }
 }
 .auth-nav__icon {
